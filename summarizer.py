@@ -90,6 +90,7 @@ def process_msg(msg):
 if __name__ == "__main__":
     fire.Fire(main)
 
+<<<<<<< HEAD
     
     #python pipe execution
     os.mkfifo(IPC_FIFO_NAME_A)  # Create Pipe A
@@ -129,3 +130,10 @@ if __name__ == "__main__":
         os.remove(IPC_FIFO_NAME_A)
         os.remove(IPC_FIFO_NAME_B)
 
+=======
+
+# git remote add project-a /path/to/project-a
+# git fetch project-a --tags
+# git merge --allow-unrelated-histories project-a/master # or whichever branch you want to merge
+# git remote remove project-a
+>>>>>>> 0f96a9bcf9661b8c8265a888b2b797f2faeb5bb5
